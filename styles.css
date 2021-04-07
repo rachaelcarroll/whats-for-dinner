@@ -19,8 +19,8 @@ red - #ee5253
   background-color: #0fb9b1;
   height: 75px;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -77,8 +77,11 @@ body, html {
 .input-label {
   font-size: 16px;
   display: flex;
-  flex-direction: column;
-  margin: 10px 20px;
+  margin-bottom: 30;
+}
+
+label {
+  margin-left: 10px;
 }
 
 .required {
@@ -88,30 +91,29 @@ body, html {
 .lets-cook {
   background-color: #0fb9b1;
   font-size: 16px;
-  height: 50px;
-  width: 100px;
-  border: 0;
-  padding: 10;
+  height: 40px;
+  width: 200px;
+  /* border: 0;
+  padding: 30; */
   border-radius: 4px;
-  margin: 20px 10px;
 }
 
 .lets-cook:hover {
   background-color: #95a5a6;
   color: white;
 }
-/*
-.hidden {
+
+/* .hidden {
   display: none;
 } */
 
 .right-box {
   background-color: rgba(225, 225, 225, .9);
   opacity: 90%;
-  height: 400px;
-  width: 500px;
+  height: 350px;
+  width: 450px;
   margin-top: 120px;
-  padding:30
+  padding: 30;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,16 +123,18 @@ body, html {
 .suggestion-title {
   font-size: 25px;
   font-style: italic;
+  margin: 0;
 }
 
 .suggested-meal {
   font-size: 30px;
   font-weight: bolder;
+  margin: 5;
 }
 
 .cookpot {
-  height: auto;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   position: absolute;
 }
 

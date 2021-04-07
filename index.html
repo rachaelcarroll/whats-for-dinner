@@ -5,7 +5,7 @@
     <title>What's For Dinner?</title>
   </head>
   <body>
-    <nav class='nav-bar' id='navbar'>
+    <nav class='nav-bar' id='nav-bar'>
      <header>
       <h1 class='title' id='title'>What's For Dinner?</h1>
      </header>
@@ -13,21 +13,25 @@
     </nav>
     <main class='main-page' id='main-page'>
       <form class='left-box' id='left-box'>
-        <ul>
           <h3 class='meal-question' id='meal-question'>What are you looking for?<span class='required' id='required'>*</span></h3>
           <br>
          <div class='input-label' id='input-label'>
           <input type='radio' class='side-option' id='side-option' value='side'>
           <label for='side'>Side</label>
+         </div>
+         <div class='input-label' id='input-label'>
           <input type='radio' class='main-option' id='main-option' value='main'>
           <label for='main'>Main Dish</label>
+         </div>
+         <div class='input-label' id='input-label'>
           <input type='radio' class='dessert-option' id='dessert-option' value='dessert'>
           <label for='dessert'>Dessert</label>
+         </div>
+         <div class='input-label' id='input-label'>
           <input type='radio' class='entire-meal' id='entire-meal' value='entire'>
           <label for='entire'>Entire Meal</label>
-          <button class='lets-cook' id='lets-cook'>Let's Cook!</button>
          </div>
-        </ul>
+          <button class='lets-cook' id='lets-cook'>Let's Cook!</button>
       </form>
       <form class='right-box' id='right-box'>
          <h3 class='suggestion-title hidden' id='suggestion-title hidden'>You should make:</h3>

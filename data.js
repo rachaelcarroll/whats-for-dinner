@@ -1,4 +1,4 @@
-var side = [
+var sides = [
   "Creamed Spinach",
   "Mashed Butternut Squash",
   "Asparagus",
@@ -11,7 +11,7 @@ var side = [
   "Candied Yams"
 ];
 
-var main = [
+var mains = [
   "Twice Baked Potato Casserole",
   "Pineapple Chicken",
   "Shakshuka",
@@ -27,7 +27,7 @@ var main = [
   "Margarita Pizza"
 ];
 
-var dessert = [
+var desserts = [
   "Carrot Cake",
   "Lemon Meringue Pie",
   "Black Forest Cake",

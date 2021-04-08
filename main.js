@@ -9,13 +9,9 @@ var clearBtn = document.querySelector('.clear-button');
 var suggestionTitle = document.querySelector('.suggestion-title');
 var suggestedMeal = document.querySelector('p');
 
-
 /*--------------------EVENT LISTENERS----------------------*/
-
 letsCookBtn.addEventListener('click', randomMeal);
-
 /*------------------------FUNCTIONS-------------------------*/
-
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
@@ -25,8 +21,6 @@ function randomMeal() {
   var randomSide = sides[getRandomIndex(sides)];
   var randomMain = mains[getRandomIndex(mains)];
   var randomDessert = desserts[getRandomIndex(desserts)];
-
-  console.log(randomSide)
 
   if(sideRadio.checked === true){
     suggestedMeal.innerText =`${randomSide}!`;
@@ -42,7 +36,6 @@ function randomMeal() {
     displayMeal();
   }
   }
-
 
 function displayMeal() {
     potIcon.classList.add('hidden');

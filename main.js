@@ -22,16 +22,16 @@ function randomMeal() {
   var randomMain = mains[getRandomIndex(mains)];
   var randomDessert = desserts[getRandomIndex(desserts)];
 
-  if(sideRadio.checked === true){
+  if(sideRadio.checked){
     suggestedMeal.innerText =`${randomSide}!`;
     displayMeal();
-  } else if(mainRadio.checked === true){
+  } else if(mainRadio.checked){
     suggestedMeal.innerText = `${randomMain}!`;
     displayMeal();
-  } else if(dessertRadio.checked === true){
+  } else if(dessertRadio.checked){
     suggestedMeal.innerText = `${randomDessert}!`;
     displayMeal();
-  } else if(entireMealRadio.checked === true){
+  } else if(entireMealRadio.checked){
     suggestedMeal.innerText = `${randomMain} with a side of ${randomSide} and ${randomDessert} for dessert!`
     displayMeal();
   }

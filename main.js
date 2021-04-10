@@ -18,21 +18,17 @@ function getRandomIndex(array) {
 
 function randomMeal() {
   event.preventDefault();
-  var randomSide = sides[getRandomIndex(sides)];
-  var randomMain = mains[getRandomIndex(mains)];
-  var randomDessert = desserts[getRandomIndex(desserts)];
-
   if(sideRadio.checked){
-    suggestedMeal.innerText =`${randomSide}!`;
+    suggestedMeal.innerText =`${sides[getRandomIndex(sides)]}!`;
     displayMeal();
   } else if(mainRadio.checked){
-    suggestedMeal.innerText = `${randomMain}!`;
+    suggestedMeal.innerText = `${mains[getRandomIndex(mains)]}!`;
     displayMeal();
   } else if(dessertRadio.checked){
-    suggestedMeal.innerText = `${randomDessert}!`;
+    suggestedMeal.innerText = `${desserts[getRandomIndex(desserts)]}!`;
     displayMeal();
   } else if(entireMealRadio.checked){
-    suggestedMeal.innerText = `${randomMain} with a side of ${randomSide} and ${randomDessert} for dessert!`
+    suggestedMeal.innerText = `${sides[getRandomIndex(sides)]} with a side of ${mains[getRandomIndex(mains)]} and ${desserts[getRandomIndex(desserts)]} for dessert!`
     displayMeal();
   }
   }

@@ -33,6 +33,6 @@ The HTML, CSS, and Javascript for What's For Dinner was written by [Rachael Carr
 * Utilizing event listeners to respond to user events
 * Writing and refactoring clean JavaScript
 
-###Online Resources
+### Online Resources
 * Git and Github: Project management and workflow
 * MDN docs & Stack Overflow: Online resources

@@ -5,7 +5,7 @@
 What's for dinner? Ah yes, the age old question. If you've ever been one to argue with your partner or friend over choosing what to make for dinner, you've come to the right place.  What's For Dinner is an application that takes the headache out of choosing your next meal.
 
 ## Functionality
--   When you visit [What's For Dinner](https://fakhatova.github.io/romcom/) you will see two boxes on the screen. The left is where you can select a side, main, dessert, or entire meal option and click **Let's Cook!**  
+-   When you visit [What's For Dinner](https://rachaelcarroll.github.io/whats-for-dinner/) you will see two boxes on the screen. The left is where you can select a side, main, dessert, or entire meal option and click **Let's Cook!**  
    ![What's For Dinner Gif](whats-for-dinner.gif)
 -   A random selection will appear on the right side of the screen.  
 

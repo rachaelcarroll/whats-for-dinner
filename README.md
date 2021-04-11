@@ -1,23 +1,38 @@
-# What's for Dinner?
 
-## Overview
+# What's For Dinner?
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+### Overview
+What's for dinner? Ah yes, the age old question. If you've ever been one to argue with your partner or friend over choosing what to make for dinner, you've come to the right place.  What's For Dinner is an application that takes the headache out of choosing your next meal.
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+#### Functionality
+-   When you visit [What's For Dinner](https://fakhatova.github.io/romcom/) you will see two boxes on the screen. The left is where you can select a side, main, dessert, or entire meal option and click **Let's Cook!**  
+   ![What's For Dinner Gif](whats-for-dinner.gif)
+-   A random selection will appear on the right side of the screen.  
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+### Future Additions
+Future additions to this application will include:
 
-## Learning Goals
+- Add a Recipe: The ability to add a new recipe to the desired category
+- Favorite Recipes: Allow users to click a favorite button and view all favorite recipes
+- User Login: User will land on a login page upon opening the app
+- Adaptable screen size: App will fit mobile, tablet, desktop and extra large screens
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
 
-## Setup
+### Contributor
+The HTML, CSS, and Javascript for What's For Dinner was written by [Rachael Carroll](https://github.com/rachaelcarroll), a frontend engineering student at [Turing School of Software & Design](https://turing.io/).
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+### Languages
+* HTML
+* CSS
+* JavaScript
+
+### Technical Goals
+* Writing semantic HTML
+* Wireframing
+* Implementing foundational CSS
+* Utilizing event listeners to respond to user events
+* Writing and refactoring clean JavaScript
+
+###Online Resources
+* Git and Github: Project management and workflow
+* MDN docs & Stack Overflow: Online resources

@@ -7,11 +7,12 @@ What's for dinner? Ah yes, the age old question. If you've ever been one to argu
 ## Functionality
 -   When you visit [What's For Dinner](https://rachaelcarroll.github.io/whats-for-dinner/) you will see two boxes on the screen. On the left you can select a side, main, dessert, or entire meal option and click **Let's Cook!**  
    ![What's For Dinner Gif](whats-for-dinner.gif)
--   A random selection will appear on the right side of the screen.  
+-   A random side, main, dessert, or entire meal suggestion will appear on the right side of the screen.  
 
 ### Future Additions
 Future additions to this application will include:
 
+- Clear button functionality: User can select *Clear* and the suggested recipe will be hidden
 - Add a Recipe: The ability to add a new recipe to the desired category
 - Favorite Recipes: Allow users to click a favorite button and view all favorite recipes
 - User Login: User will land on a login page upon opening the app
